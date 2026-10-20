@@ -7,10 +7,13 @@
     <title>Pari o dispari?</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/matrix_rain.css">
 </head>
 
 <body>
-    <div class="ratio"></div>
+    <div id="matrix_container" class="ratio mb-5">
+        <canvas id="matrixCanvas"></canvas>
+    </div>
     <div class="w-100 h-100 row g-3">
         <div class="col-md-6 text-center">
             <h1 class="text-light fw-bold">Biglietti Cinema</h1>
@@ -30,6 +33,7 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/matrix_rain.js"></script>
 </body>
 
 </html>
