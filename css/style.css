@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.ratio {
+    aspect-ratio: 30/7;
+}
+
+li {
+    color: yellowgreen;
+}
+
+li span {
+    color: white;
+}
+
+button.spin {
+    transition: all 2s ease-in-out;
+}
+
+button.spin:hover {
+    transform: rotate(1800deg);
+}
